@@ -42,6 +42,6 @@ This project allows you to send commands to an Optoma ZH403 projector over RS-23
 
 ## Example
 ```sh
-curl http://<esp32-ip-address>/poweron
-curl http://<esp32-ip-address>/poweroff
+curl http://<esp32-ip-address>/?command=ON
+curl http://<esp32-ip-address>/?command=OFF
 ```
