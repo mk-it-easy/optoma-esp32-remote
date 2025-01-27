@@ -32,8 +32,8 @@ This project allows you to send commands to an Optoma ZH403 projector over RS-23
 
 ## Setup
 1. Connect the ESP32 to the Optoma ZH403 projector using an RS-232 interface. Ensure you use a straight-through cable, not a crossed (null modem) cable.
-2. Configure the Wi-Fi credentials in the `main.cpp` file.
-3. Upload the code to the ESP32.
+2. Upload the code to the ESP32.
+3. Configure the Wi-Fi credentials by connecting to the 'Optoma ZH403 - ESP Remote' access point and provide your Wi-Fi credentials.
 4. Access the REST server to send commands to the projector.
 
 ## Usage
