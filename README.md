@@ -2,6 +2,8 @@
 
 This project allows you to send commands to an Optoma ZH403 projector over RS-232 via a Wi-Fi REST server using an ESP32 microcontroller. The ESP32 connects to a Wi-Fi network and hosts a RESTful API, enabling remote control of the projector through HTTP requests.
 
+**Note:** This is not an official Optoma repository. It is an independent project created to facilitate remote control of the Optoma ZH403 projector.
+
 ## Features
 - Send power on/off commands to the Optoma ZH403 projector.
 - Communicate with the projector using RS-232 protocol.
