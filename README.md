@@ -19,6 +19,7 @@ This project allows you to send commands to an Optoma ZH403 projector over RS-23
 - ESP32 5V -> MAX3232 VCC
 - ESP32 GND -> MAX3232 GND
 
+```
     +-------------------+       +------------------+            +------------------+
     |      ESP32        |       |     MAX3232      |            |   Optoma ZH403   |
     |                   |       |                  |            |                  |
@@ -27,6 +28,7 @@ This project allows you to send commands to an Optoma ZH403 projector over RS-23
     |    TX2 (16) ----> |-------| TX               |   RS232    |                  |
     |    RX2 (17) ----> |-------| RX               |            |                  |
     +-------------------+       +------------------+            +------------------+
+```
 
 ## Setup
 1. Connect the ESP32 to the Optoma ZH403 projector using an RS-232 interface. Ensure you use a straight-through cable, not a crossed (null modem) cable.
